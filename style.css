@@ -21,12 +21,19 @@ header{
     justify-content: space-between;
 }
 
+
 header nav a{
     color: #ffffffff;
     font-weight: 600;
     padding: 32px;
     text-decoration: none;
 }
+
+nav > a:hover{
+    text-decoration: underline;
+
+}
+
 
 #inicio{
     display: flex;
@@ -36,16 +43,21 @@ header nav a{
     position: relative;
 }
 
+
 h1, h2{
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px ;
 }
 
+
 .paragrafo{
     line-height: 150%;
     margin-bottom: 32px;
+    padding-bottom: 10px;
+    
 }
+
 
 .botao{
     background-color: #FF725E;
@@ -53,11 +65,196 @@ h1, h2{
     border-radius: 8px;
     color: white;
     text-decoration: none;
+    margin-right: 50px;
+    margin-left: 45px;
+    
 }
 
+
 .botao-transparente{
-    background-color: transparent;
-    color: #FF725E;
+    background-color: #FF725E;
     padding: 16px 32px;
-    text-underline-offset: 4px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding-left: px;
+}
+
+
+.absolute{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -10;
+}
+
+
+#clinica{
+    display: flex;
+    align-items: center; 
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+
+#clinica li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+
+#farmacia{
+    padding: 64px 80px;
+    text-align: center;
+    padding-top: 
+
+}
+
+
+#farmacia img{
+    margin: 50px;
+}
+
+
+#farmacia .paragrafo{
+    max-width: 950px;
+    margin: 0 auto;
+   
+    
+}
+
+
+#duvida{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+
+.duvida {
+    position: relative;
+}
+
+
+.duvida h3{
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+
+.duvida .paragrafo{
+    border-right: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    border-left: 1px solid #FF725E;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+
+footer{
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 65px 80px;
+}
+
+
+.petlife{
+    padding-top: 45px;
+}
+
+
+footer img, footer .titulo1,.titulo2{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+    
+}
+
+.titulo2{
+    padding-left: 100px;
+    margin-top: 25px;
+}
+
+
+footer nav a{
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+    padding-left: 25px;
+
+}
+
+
+.links_rapidos{
+    padding-top: 8px;
+}
+
+.linicio{
+    padding-left: 33px;   
+    
+}
+
+.lclinica{
+    padding-left: 28px;
+}
+
+.lfarmacia{
+    padding-left: 19px;
+}
+
+.lduvida{
+    padding-left: 23px;
+}
+
+.links_contato{
+    padding-top: 8px;
+}
+
+.whats{
+    padding-left: 55px;
+}
+
+.email{
+    padding-left: 47px;
+}
+
+footer p{
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+
+
+footer p a{
+    color: #263138;
+    text-decoration: none;
+}
+
+
+#copyright{
+    background-color: #263138;
+    color: #FFFFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#copyright a{
+    color: #FF9A6C;
 }
