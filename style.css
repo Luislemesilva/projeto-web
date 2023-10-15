@@ -65,19 +65,19 @@ h1, h2{
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    margin-right: 50px;
-    margin-left: 45px;
+    margin-right: 40px;
+    margin-left: 10px;
     
 }
 
 
 .botao-transparente{
     background-color: #FF725E;
-    padding: 16px 32px;
+    padding: 16px 30px;
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    padding-left: px;
+ 
 }
 
 
